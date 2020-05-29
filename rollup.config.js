@@ -30,7 +30,7 @@ export default [
     output: {
       name: "typeis",
       file: path.join("dist", `typeis.min.js`),
-      format: "umd",
+      format: "iife",
     },
   },
 ];
