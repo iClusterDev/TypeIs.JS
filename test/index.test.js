@@ -12,7 +12,10 @@ isFunctionTest();
 isObjectLikeTest();
 isPlainObjectTest();
 
-const func1 = () => {};
-const func2 = function () {};
-console.log(typeof func1);
-console.log(typeof func2);
+// const func1 = () => {};
+// const func2 = function () {};
+// console.log(typeof func1);
+// console.log(typeof func2);
+
+const str = "fabio";
+console.log(Object.prototype.toString.call(str));
