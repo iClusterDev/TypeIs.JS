@@ -8,6 +8,7 @@ const isArrayLikeTest = require("./isArrayLike.test");
 const isArrayTest = require("./isArray.test");
 const isStringTest = require("./isString.test");
 const isBooleanTest = require("./isBoolean.test");
+const isNumberTest = require("./isNumber.test");
 
 isNull();
 isUndefined();
@@ -19,3 +20,4 @@ isArrayLikeTest();
 isArrayTest();
 isStringTest();
 isBooleanTest();
+isNumberTest();

@@ -8,6 +8,7 @@ import isArrayLike from "./isArrayLike";
 import isArray from "./isArray";
 import isString from "./isString";
 import isBoolean from "./isBoolean";
+import isNumber from "./isNumber";
 
 export default {
   isUndefined,
@@ -20,4 +21,5 @@ export default {
   isArray,
   isString,
   isBoolean,
+  isNumber,
 };
