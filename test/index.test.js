@@ -5,6 +5,9 @@ const isFunctionTest = require("./isFunction.test");
 const isObjectLikeTest = require("./isObjectLike.test");
 const isPlainObjectTest = require("./isPlainObject.test");
 const isArrayLikeTest = require("./isArrayLike.test");
+const isArrayTest = require("./isArray.test");
+const isStringTest = require("./isString.test");
+const isBooleanTest = require("./isBoolean.test");
 
 isNull();
 isUndefined();
@@ -13,3 +16,6 @@ isFunctionTest();
 isObjectLikeTest();
 isPlainObjectTest();
 isArrayLikeTest();
+isArrayTest();
+isStringTest();
+isBooleanTest();
