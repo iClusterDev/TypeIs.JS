@@ -4,6 +4,7 @@ import isObject from "./isObject";
 import isFunction from "./isFunction";
 import isObjectLike from "./isObjectLike";
 import isPlainObject from "./isPlainObject";
+import isArrayLike from "./isArrayLike";
 
 export default {
   isUndefined,
@@ -12,4 +13,5 @@ export default {
   isFunction,
   isObjectLike,
   isPlainObject,
+  isArrayLike,
 };
