@@ -1,6 +1,6 @@
 # TypeIs.js
 
-The fast and reliable JS typechecking toolbox!
+The fast and reliable JS type-checking toolbox!
 
 ## Installation
 
@@ -68,7 +68,7 @@ import { isArray, isArrayLike } from "typeis.js";
 ...Or include the distributed minified file in the script tag:
 
 ```html
-<script src="./js/typeis.min.js"></script>
+<script src="./path/to/typeis.min.js"></script>
 <script>
   console.log(typeis.isNumber(100));
 </script>
