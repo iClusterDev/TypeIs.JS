@@ -1,6 +1,6 @@
 {
   "name": "typeis.js",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A Javascript type-checking toolbox",
   "main": "typeis.cjs.js",
   "module": "typeis.js",
