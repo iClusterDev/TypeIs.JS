@@ -1,7 +1,7 @@
 {
   "name": "typeis.js",
-  "version": "1.0.16",
-  "description": "A Javascript type-checking toolbox",
+  "version": "1.0.17",
+  "description": "The fast and reliable JS type-checking toolbox!",
   "main": "typeis.cjs.js",
   "module": "typeis.js",
   "files": [
@@ -24,13 +24,18 @@
     "utils",
     "javascript",
     "typechecking",
-    "isNull",
-    "isObject",
-    "isPlainObject",
-    "isUndefined",
+    "isArray",
+    "isArrayLike",
     "isBoolean",
+    "isFunction",
+    "isNull",
+    "isNumber",
+    "isObject",
+    "isObjectLike",
+    "isPlainObject",
     "isString",
-    "isNumber"
+    "isSymbol",
+    "isUndefined"
   ],
   "author": "iClusterDev",
   "license": "MIT",
@@ -50,6 +55,6 @@
     "type": "git",
     "url": "git+https://github.com/iClusterDev/TypeIs.JS.git"
   },
-  "homepage": "",
+  "homepage": "git+https://github.com/iClusterDev/TypeIs.JS.git",
   "bugs": {}
 }
