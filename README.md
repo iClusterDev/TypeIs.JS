@@ -1,5 +1,87 @@
 # TypeIs.js
 
-The Javascript type-checking toolbox.
+The fast and reliable JS typechecking toolbox!
 
-This is work in progress! Just chill out!
+## Installation
+
+Using [npm](https://www.npmjs.com/package/typeis.js)
+
+```console
+npm i typeis.js
+```
+
+## Usage
+
+In Node (CommonJS)
+
+```js
+const {
+  isArray,
+  isArrayLike,
+  isBoolean,
+  isFunction,
+  isNull,
+  isNumber,
+  isObject,
+  isObjectLike,
+  isPlainObject,
+  isString,
+  isSymbol,
+  isUndefined,
+} = require("typeis.js");
+
+// on "undefined" -> false
+console.log(isPlainObject());
+
+// on "null" -> false
+console.log(isPlainObject(null));
+
+// on "number" -> false
+console.log(isPlainObject(100));
+
+// on "string" -> false
+console.log(isPlainObject("foo"));
+
+// on "boolean" -> false
+console.log(isPlainObject(true));
+
+// on "plain object" -> true
+console.log(isPlainObject({ a: 100, b: 200 }));
+
+// on "array" -> false
+console.log(isPlainObject([1, 2, 3]));
+
+// on "function" -> false
+console.log(
+  isPlainObject(function () {
+    return "bar";
+  })
+);
+```
+
+In the Browser (ES6 modules):
+
+```js
+import { isArray, isArrayLike } from "typeis.js";
+```
+
+...Or include the distributed minified file in the script tag:
+
+```html
+<script src="./js/typeis.min.js"></script>
+<script>
+  console.log(typeis.isNumber(100));
+</script>
+```
+
+## Contributing
+
+If you find any issues, feel free to submit a pull request
+
+## Author
+
+[iClusterDev](https://github.com/iClusterDev)
+
+## License
+
+This project is under the [MIT](LICENSE) License
