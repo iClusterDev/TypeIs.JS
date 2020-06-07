@@ -67,5 +67,18 @@ module.exports = () => {
         );
       });
     });
+
+    describe("on arguments (array like)", function () {
+      it("should return false", function () {
+        const args = arguments;
+        assert.equal(isUndefined(args), false);
+      });
+    });
+
+    describe("on Symbol", function () {
+      it("should return false", function () {
+        assert.equal(isUndefined(Symbol()), false);
+      });
+    });
   });
 };

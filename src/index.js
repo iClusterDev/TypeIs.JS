@@ -9,6 +9,7 @@ import isArray from "./isArray";
 import isString from "./isString";
 import isBoolean from "./isBoolean";
 import isNumber from "./isNumber";
+import isSymbol from "./isSymbol";
 
 export default {
   isUndefined,
@@ -22,4 +23,5 @@ export default {
   isString,
   isBoolean,
   isNumber,
+  isSymbol,
 };

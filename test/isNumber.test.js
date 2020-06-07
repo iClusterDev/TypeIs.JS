@@ -74,5 +74,11 @@ module.exports = () => {
         assert.equal(isNumber(args), false);
       });
     });
+
+    describe("on Symbol", function () {
+      it("should return false", function () {
+        assert.equal(isNumber(Symbol()), false);
+      });
+    });
   });
 };

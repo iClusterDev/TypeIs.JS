@@ -1,5 +1,5 @@
-var assert = require("assert");
-var { isArray } = require("../typeIs.cjs");
+const assert = require("assert");
+const { isArray } = require("../typeIs.cjs");
 
 module.exports = () => {
   describe("isArray", function () {
@@ -72,6 +72,12 @@ module.exports = () => {
       it("should return false", function () {
         const args = arguments;
         assert.equal(isArray(args), false);
+      });
+    });
+
+    describe("on Symbol", function () {
+      it("should return false", function () {
+        assert.equal(isArray(Symbol()), false);
       });
     });
   });

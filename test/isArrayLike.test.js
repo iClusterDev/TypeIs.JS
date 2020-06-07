@@ -74,5 +74,11 @@ module.exports = () => {
         assert.equal(isArrayLike(args), true);
       });
     });
+
+    describe("on Symbol", function () {
+      it("should return false", function () {
+        assert.equal(isArrayLike(Symbol()), false);
+      });
+    });
   });
 };
