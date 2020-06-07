@@ -2,6 +2,8 @@
 
 The fast and reliable JS type-checking toolbox!
 
+![npm](https://img.shields.io/npm/v/typeis.js) ![npm](https://img.shields.io/npm/dw/typeis.js) ![Twitter Follow](https://img.shields.io/twitter/follow/iClusterDev?style=social)
+
 ## Installation
 
 Using [npm](https://www.npmjs.com/package/typeis.js)
