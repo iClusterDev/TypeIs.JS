@@ -10,6 +10,7 @@ import isString from "./isString";
 import isBoolean from "./isBoolean";
 import isNumber from "./isNumber";
 import isSymbol from "./isSymbol";
+import isArguments from "./isArguments";
 
 export default {
   isUndefined,
@@ -24,4 +25,5 @@ export default {
   isBoolean,
   isNumber,
   isSymbol,
+  isArguments,
 };
