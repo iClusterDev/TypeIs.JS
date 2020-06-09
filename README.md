@@ -30,6 +30,7 @@ const {
   isString,
   isSymbol,
   isUndefined,
+  isArguments,
 } = require("typeis.js");
 
 // on "undefined" -> false

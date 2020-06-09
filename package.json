@@ -1,6 +1,6 @@
 {
   "name": "typeis.js",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "The fast and reliable JS type-checking toolbox!",
   "main": "typeis.cjs.js",
   "module": "typeis.js",
@@ -35,7 +35,8 @@
     "isPlainObject",
     "isString",
     "isSymbol",
-    "isUndefined"
+    "isUndefined",
+    "isArguments"
   ],
   "author": "iClusterDev",
   "license": "MIT",
